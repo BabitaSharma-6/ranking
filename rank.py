@@ -4,6 +4,7 @@ import spacy
 import pdfplumber
 import docx
 import nltk
+nltk.download('punkt_tab')
 from nltk.tokenize import word_tokenize
 
 # Load NLP model
